@@ -150,42 +150,57 @@ main > div.descricao-da-obra > h1 {
 
 
 section {
+    background-color: blue;
     background-attachment: fixed;
     background-size: cover;
     box-shadow: inset 10% 10% rgba(0, 0, 0, 0.699);
-    max-width: 200px;
+    max-width: 1090px;
     max-height: 350px;
     line-height: auto;
     padding-left: 30px;
     font-size: 25px;
+    margin: auto;
+
+}
+
+section#tanjiro {
+    background-image: url(imagens/background-tanjiro.jpg);
+    background-attachment: fixed;
+}
+
+section > p {
+    background-color: rgba(0, 0, 0, 0.645);
+}
+
+article {
+    color: white;
+}
+
+div.frase, div.img-personagem {
+    max-width: 353px;
+    min-width: 157px;
+    display: inline-block;
   
     
 }
 
-div.frase, div.img-personagem {
-    display: inline-block;
-    
+.frase {
+    position: relative;
+    color: white;
+    text-align: justify;
+    background-color: rgba(17, 1, 1, 0.685);
+    text-shadow: rgba(0, 0, 0, 0.416);
+    margin: 10px 10px 10px 10px;
 }
 
 .frase > p {
-    display: inline-block;
-    color: white;
-    text-align: justify;
-    font-family: 'fonte-demon', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: rgba(17, 1, 1, 0.685);
-    padding: 2px;
-    text-shadow: rgba(0, 0, 0, 0.416);
-    margin: 30px 30px 30px 30px;
-    position: center;
+    font-size: 40px;
+    font-family: 'fonte-demon', Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.img-personagem {
-    
-    margin: 10px 10px 10px 276px;
-    max-width: 60px;
-    max-height: 78px;
 
-}
+
+
 
 
 
