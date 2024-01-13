@@ -1,0 +1,199 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'fonte-onepiece';
+    src: url(fontes/one\ piece\ font.ttf) format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'fonte-naruto';
+    src: url(fontes/njnaruto.ttf) format('opentype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'fonte-demon';
+    src: url(fontes/DEMON_NI.TTF) format('opentype');
+    font-weight: normal;
+}
+
+body {
+    height: 100vh;
+    background-color: gray;
+    
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+header {
+    background-color: black;
+    max-height: 400px;
+    margin-top: 0px;
+    padding-top: 0px;
+
+}
+
+header > h1 {
+    font-family: 'fonte-onepiece', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 67px;
+    min-width: 20px;
+    text-align: center;
+    color: white;
+    margin: 0px;
+    margin-bottom: 0px;
+}
+
+header > p {
+    color: white;
+    font-family: 'fonte-naruto', Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+nav {
+    background-color: red;
+    text-decoration: underline;
+    text-indent: 2px;
+    margin-top: 0px;
+    
+}
+
+
+nav > a {
+    color: white;
+    font-style: normal;
+    font-size: medium;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+main > a {
+    color: red;
+    padding-top: 13px;
+}
+
+main {
+    background-color: black;
+    max-width: 1200px;
+    margin: auto;
+}
+
+div.descricao-da-obra, div.logo {
+    display: inline-block;
+   
+}
+
+main > div.descricao-da-obra > h1 {
+    font-size: medium;
+
+}
+
+.descricao-da-obra {
+    max-width: 600px;
+    min-height: 320px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-indent: 2px;
+    text-align: justify;
+    font-size: 12px;
+    padding-left: 2px;
+}
+
+.logo {
+    max-width: 230px;
+    max-height: 180px;
+    margin-left: 60px;
+    margin-right: 0px;
+    padding: 0px;
+}
+
+.lista-de-arcos {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+.video-abertura {
+    background-image: url(imagens/fundo-div-video..png);
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0px 0px 12px 0px;
+    padding: 35px;
+    padding-bottom:30%;
+
+    position: relative;
+
+}
+
+.video-abertura > iframe {
+    position: absolute;
+    max-width: 580px;
+    max-height: 330px;
+    top: 10%;
+    bottom: 10%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+
+}
+ 
+
+.titulos-com-fonte {
+    font-family: 'fonte-demon', Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+
+section {
+    background-attachment: fixed;
+    background-size: cover;
+    box-shadow: inset 10% 10% rgba(0, 0, 0, 0.699);
+    max-height: 350px;
+    line-height: auto;
+    padding-left: 30px;
+    font-size: 25px;
+  
+    
+}
+
+section#tanjiro {
+    background-image: url(imagens/background-tanjiro.jpg);
+    background-position: center top;
+    background-size: cover;
+    box-shadow: inset 100% rgba(0, 0, 0, 0.579);
+
+
+}
+
+div.frase, div.img-personagem {
+    display: inline-block;
+    
+}
+
+.frase > p {
+    display: inline-block;
+    color: white;
+    text-align: justify;
+    font-family: 'fonte-demon', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgba(17, 1, 1, 0.685);
+    padding: 2px;
+    text-shadow: rgba(0, 0, 0, 0.416);
+    margin: 30px 30px 30px 30px;
+    position: center;
+}
+
+.img-personagem {
+    
+    margin: 10px 10px 10px 276px;
+    max-width: 60px;
+    max-height: 78px;
+
+}
+
+
+
