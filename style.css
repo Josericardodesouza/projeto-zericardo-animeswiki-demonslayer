@@ -153,21 +153,13 @@ section {
     background-attachment: fixed;
     background-size: cover;
     box-shadow: inset 10% 10% rgba(0, 0, 0, 0.699);
+    max-width: 200px;
     max-height: 350px;
     line-height: auto;
     padding-left: 30px;
     font-size: 25px;
   
     
-}
-
-section#tanjiro {
-    background-image: url(imagens/background-tanjiro.jpg);
-    background-position: center top;
-    background-size: cover;
-    box-shadow: inset 100% rgba(0, 0, 0, 0.579);
-
-
 }
 
 div.frase, div.img-personagem {
