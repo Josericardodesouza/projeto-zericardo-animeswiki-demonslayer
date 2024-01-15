@@ -24,9 +24,14 @@ body {
     
 }
 
-p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+
+section > p {
+    background-color: rgba(0, 0, 0, 0.645);
 }
+
 
 
 header {
@@ -146,58 +151,172 @@ main > div.descricao-da-obra > h1 {
 .titulos-com-fonte {
     font-family: 'fonte-demon', Arial, Helvetica, sans-serif;
     color: white;
+    text-align: center;
 }
 
 
-section {
+
+
+
+/*--------- modificações dos personagens por classe dos objetos ------*/
+
+
+p.autor {
+    font-size: 3px;
+}
+
+section.personagem { /*todas as sections */
     background-color: blue;
-    background-attachment: fixed;
-    background-size: cover;
     box-shadow: inset 10% 10% rgba(0, 0, 0, 0.699);
+    max-height: 405px;
     max-width: 1090px;
-    max-height: 350px;
     line-height: auto;
     padding-left: 30px;
-    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
     margin: auto;
+    display: flex;
 
 }
 
-section#tanjiro {
-    background-image: url(imagens/background-tanjiro.jpg);
-    background-attachment: fixed;
-}
 
-section > p {
-    background-color: rgba(0, 0, 0, 0.645);
-    
+div.frase {
+    position: relative;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
 
 }
+
+div.frase > p {
+    background-color:  rgba(0, 0, 0, 0.382);
+    font-size: 24px;
+    color: white;
+    text-indent: 0.5px;
+    text-align: center;
+    font-weight: 400px; 
+    word-spacing: 2px;
+} 
 
 article {
     color: white;
 }
 
-section > div.frase, div.img-personagem {
-    display: inline-block;
-   
- 
+
+
+
+
+/*------------------ modificaçoes por id ------------------------*/
+
+section#tanjiro {
+    background-image: url(imagens/background-tanjiro.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right top;
+    
+    
 }
 
- .frase {
-    width: 40%;
-    height: 90%;
+
+div#tanjiro-img {
+    margin-left: 60px;
+    margin-right: 2px;
+    padding: 0px;
+
+
+
+}
+
+section#nezuko {
+    background-image: url(imagens/background-nezuko.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+div#nezuko-img {
+    margin-left: 60px;
+    margin-right: 2px;
+    padding: 0px;
+    position: left;
+}
+
+
+    section#inosuke {
+        background-image: url(imagens/background-inosuke.jpeg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center center;
+
+    }
+
+
+
+
+
+
+
+    /*----------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+/* div#tanjiro-p {
+        width: 280px;
+        height: 170px;
+        font-size: 30px;
+        margin: auto;
+        position: relative;
+        align-items: center;
+        color: white;
+        text-align: center;
+        background-color: rgba(17, 1, 1, 0.685);
+        text-shadow: rgba(0, 0, 0, 0.416);
+        margin: auto;
+        padding-left: 10px;
+        padding-bottom: 10px; */
+        /* transform: translateX(22%) translateY(-68%); */
+        
+}
+
+/* div#tanjiro-img {
+    margin: auto;
+    max-width: 353px;
+    max-height: 396px;
+    /* transform: translateY(-1%) translateX(105%); */
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+article {
     color: white;
-    text-align: justify;
-    background-color: rgba(17, 1, 1, 0.685);
-    text-shadow: rgba(0, 0, 0, 0.416);
-    margin: 10px 10px 10px 10px; 
-
- }
-
- .img-personagem {
-    margin: 0px, 0px, 0px, 0px;
- }
+    padding-inline: 10px;
+}
 
 
 
@@ -209,3 +328,7 @@ section > div.frase, div.img-personagem {
 
 
 
+
+
+
+/* justify-content: space-between; usa para colocar os dois elementos da div em cada ponta*/
