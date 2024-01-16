@@ -85,6 +85,7 @@ main {
     background-color: black;
     max-width: 1200px;
     margin: auto;
+    padding: 5px;
 }
 
 div.descricao-da-obra, div.logo {
@@ -115,6 +116,7 @@ main > div.descricao-da-obra > h1 {
     margin-left: 60px;
     margin-right: 0px;
     padding: 0px;
+    padding-bottom: 30px;
 }
 
 .lista-de-arcos {
@@ -173,7 +175,6 @@ section.personagem { /*todas as sections */
     line-height: auto;
     padding-left: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   
     margin: auto;
     display: flex;
 
@@ -198,10 +199,25 @@ div.frase > p {
     word-spacing: 2px;
 } 
 
+
 article {
     color: white;
 }
 
+article.lista-de-arcos {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+article.descricao-do-personagem { 
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    text-indent: 2px;
+    font-size: 18px;
+    text-justify: auto;
+    text-decoration: none;
+}
 
 
 
@@ -239,17 +255,64 @@ div#nezuko-img {
     margin-left: 60px;
     margin-right: 2px;
     padding: 0px;
-    position: left;
+
 }
+
+div#nezuko-frase {
+    margin-left: 100px;
+    
+}
+
+
+
+div#nezuko-frase > p{
+    font-size: 25px;
+}
+
+
+
 
 
     section#inosuke {
         background-image: url(imagens/background-inosuke.jpeg);
         background-attachment: fixed;
         background-size: cover;
-        background-position: center center;
+        background-position: top center;
 
     }
+
+    div#inosuke-img {
+        margin-left: 60px;
+        margin-right: 80px;
+        position: relative;
+    }
+
+    div#inosuke-frase {
+        margin-left: 100px;
+    }
+
+    div#inosuke-frase > p {
+        min-width: 50px;
+        font-size: 30px;  
+    }
+
+
+    section#zenitsu {
+        background-image: url(imagens/background-zenitsu.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: top left;
+
+
+     
+
+    }
+
+
+
+
+
+
 
 
 
@@ -282,7 +345,7 @@ div#nezuko-img {
         padding-bottom: 10px; */
         /* transform: translateX(22%) translateY(-68%); */
         
-}
+
 
 /* div#tanjiro-img {
     margin: auto;
