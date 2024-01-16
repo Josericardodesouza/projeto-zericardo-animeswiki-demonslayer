@@ -1,5 +1,25 @@
 @charset "UTF-8";
 
+
+:root {
+        --cor1: #3ABC7F;
+        --cor2: #468A6A;
+        --cor03:#3E574B;
+        --cor04:#3E574B;
+        --cor05:#2D3330;
+        --cor06:#23332C;
+        --cor07:#F6BABC;
+        --cor08:#C2A3A4;
+        --cor09:#8F5B5D;
+        --cor10:#5C282A;
+        --cor11:#5C1618;
+        --cor12:#243B66;
+        --cor13:#0F0F17;
+        --cor14:#F45140;
+        --cor15:#FC7D54;
+
+}
+
 /* @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap'); */
 
 
@@ -34,12 +54,8 @@ body {
 }
 
 
-p {
-
+    
 }
-
-
-
 
 
 section > p {
@@ -83,6 +99,8 @@ nav {
 
 
 nav > a {
+    margin-left: 20px;
+    max-height: 20px;
     color: white;
     font-style: normal;
     font-size: medium;
@@ -193,6 +211,15 @@ main > div.descricao-da-obra > h1 {
 p.autor {
     font-size: 3px;
 }
+
+div.audio {
+    max-width: 315px;
+    max-height: 76px;
+    border-radius: 30px;
+    background-color: #3ABC7F;
+
+}
+
 
 .nome-do-personagem {
     color: aliceblue;
