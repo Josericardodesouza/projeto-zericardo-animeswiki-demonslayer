@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap'); */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+
 @font-face {
     font-family: 'fonte-onepiece';
     src: url(fontes/one\ piece\ font.ttf) format('opentype');
@@ -18,10 +23,19 @@
     font-weight: normal;
 }
 
+
+
+
+
 body {
     height: 100vh;
     background-color: gray;
     
+}
+
+
+p {
+
 }
 
 
@@ -104,6 +118,7 @@ main > div.descricao-da-obra > h1 {
     margin-bottom: 20px;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200px;
     text-indent: 2px;
     text-align: justify;
     font-size: 12px;
@@ -137,6 +152,14 @@ main > div.descricao-da-obra > h1 {
 
 }
 
+p#p-da-abertura {
+    color: aliceblue;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    font-size: 29px;
+    min-width: 20px;
+}
+
+
 .video-abertura > iframe {
     position: absolute;
     max-width: 580px;
@@ -151,6 +174,8 @@ main > div.descricao-da-obra > h1 {
  
 
 .titulos-com-fonte {
+    
+    font-size: 4em;
     font-family: 'fonte-demon', Arial, Helvetica, sans-serif;
     color: white;
     text-align: center;
@@ -165,6 +190,13 @@ main > div.descricao-da-obra > h1 {
 
 p.autor {
     font-size: 3px;
+}
+
+.nome-do-personagem {
+    color: aliceblue;
+    font-size: 30px;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    text-indent: 10px;
 }
 
 section.personagem { /*todas as sections */
@@ -205,13 +237,13 @@ article {
 }
 
 article.lista-de-arcos {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
 }
 
 
 article.descricao-do-personagem { 
     color: whitesmoke;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Lato', Arial, Helvetica, sans-serif;
     text-align: justify;
     text-indent: 2px;
     font-size: 18px;
@@ -222,13 +254,17 @@ article.descricao-do-personagem {
 
 
 
+
 /*------------------ modificaçoes por id ------------------------*/
 
 section#tanjiro {
     background-image: url(imagens/background-tanjiro.jpg);
     background-attachment: fixed;
     background-size: cover;
-    background-position: right top;
+    background-position: center top;
+    
+    
+    /* background-position: right top; */
     
     
 }
@@ -298,10 +334,10 @@ div#nezuko-frase > p{
 
 
     section#zenitsu {
-        background-image: url(imagens/background-zenitsu.jpg);
+        background-image: url(imagens/background-zenitsu.jpeg);
         background-attachment: fixed;
         background-size: cover;
-        background-position: top left;
+        background-position: center top;
 
 
      
@@ -310,7 +346,16 @@ div#nezuko-frase > p{
 
 
 
-
+footer {
+        color: white;
+        text-align: center;
+        height: 200px;
+        background-color: black;
+        padding: 5px;
+        padding-top: 47px;
+        border-top: 5px solid red;
+        min-height: 200px;
+}
 
 
 
@@ -326,7 +371,7 @@ div#nezuko-frase > p{
 
 
 
-
+    /* <p class="autor">Tanjiro Kamado</p> */
 
 
 /* div#tanjiro-p {
@@ -376,22 +421,11 @@ div#nezuko-frase > p{
 
 
 
-article {
+/* article {
     color: white;
     padding-inline: 10px;
-}
+} */
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-/* justify-content: space-between; usa para colocar os dois elementos da div em cada ponta*/
