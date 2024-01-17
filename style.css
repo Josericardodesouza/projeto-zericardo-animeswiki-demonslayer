@@ -188,7 +188,7 @@ main > div.descricao-da-obra > h1 {
 .video-abertura > iframe {
     position: absolute;
     max-width: 580px;
-    max-height: 330px;
+    max-height: 350px;
     top: 10%;
     bottom: 10%;
     left: 5%;
