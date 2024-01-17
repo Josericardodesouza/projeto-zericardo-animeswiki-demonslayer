@@ -116,8 +116,7 @@ main > a {
 
 main {
     background-color: black;
-    max-width: 100vh;
-    /* max-width: 1200px; */
+    max-width: 1200px; 
     margin: auto;
     padding: 5px;
 }
@@ -197,7 +196,7 @@ main > div.descricao-da-obra > h1 {
 
 .titulos-com-fonte {
     
-    font-size: 26px;
+    font-size: 36px;
     font-family: 'fonte-demon', Arial, Helvetica, sans-serif;
     color: white;
     text-align: center;
@@ -238,9 +237,13 @@ section.personagem { /*todas as sections */
     line-height: auto;
     padding-left: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: auto;
     display: flex;
+    flex-direction: column;
 
+}
+
+div.frase, div.img-personagem {
+    flex: 1;
 }
 
 
@@ -249,6 +252,7 @@ div.frase {
     align-items: center;
     margin-top: auto;
     margin-bottom: auto;
+    display: flex;
 
 }
 
@@ -324,16 +328,15 @@ section#nezuko {
 
 div#nezuko-img {
     margin-left: 60px;
-    margin-right: 80px;
+    margin-right: 2px;
     padding: 0px;
-    position: relative;
     padding-top: 10px;
     
 
 }
 
 
-div#nezuko-frase {
+ div#nezuko-frase {
     font-size: 30px;
     margin-left: 50px;
     white-space: nowrap;
@@ -341,7 +344,7 @@ div#nezuko-frase {
     
 }
 
-section#inosuke {
+ section#inosuke {
         max-height: 415px;
         background-image: url(imagens/background-inosuke.jpeg);
         background-attachment: fixed;
@@ -353,16 +356,15 @@ section#inosuke {
 
     div#inosuke-img {
         margin-left: 60px;
-        margin-right: 80px;
-        position: relative;
+        margin-right: 20px;
     }
 
     div#inosuke-frase {
         max-width: 400px;
         min-width: 183px;
         font-size: 30px;
-        margin-left: 25px;
-        margin-right: auto;
+        margin-right: 0px;
+        margin-left: 0px;
     }
 
 
@@ -378,7 +380,6 @@ section#inosuke {
         max-width: 400px;
         min-width: 183px;
         font-size: 30px;
-        margin-left: 25px;
         margin-right: auto;
     }
 
