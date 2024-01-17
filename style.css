@@ -235,17 +235,22 @@ section.personagem { /*todas as sections */
     max-height: 405px;
     max-width: 1090px;
     line-height: auto;
-    padding-left: 30px;
+    padding-left: 30px;    
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+
 
 }
 
 div.frase, div.img-personagem {
     flex: 1;
+    min-width: 50%;
 }
 
+div.img-personagem {
+    float: left;
+}
 
 div.frase {
     position: relative;
@@ -253,6 +258,8 @@ div.frase {
     margin-top: auto;
     margin-bottom: auto;
     display: flex;
+    float: right;
+
 
 }
 
@@ -305,9 +312,9 @@ section#tanjiro {
 
 
 div#tanjiro-img {
-    margin-left: 60px;
+    /* margin-left: 60px;
     margin-right: 2px;
-    padding: 0px;
+    padding: 0px; */
 
 
 
@@ -327,10 +334,9 @@ section#nezuko {
 
 
 div#nezuko-img {
-    margin-left: 60px;
+    /* margin-left: 60px;
     margin-right: 2px;
-    padding: 0px;
-    padding-top: 10px;
+    padding: 0px; */
     
 
 }
@@ -338,7 +344,7 @@ div#nezuko-img {
 
  div#nezuko-frase {
     font-size: 30px;
-    margin-left: 50px;
+    /* margin-left: 50px; */
     white-space: nowrap;
 
     
@@ -355,13 +361,14 @@ div#nezuko-img {
  }
 
     div#inosuke-img {
-        margin-left: 60px;
-        margin-right: 20px;
+        /* margin-left: 60px;
+        margin-right: 20px; */
     }
 
     div#inosuke-frase {
-        max-width: 400px;
-        min-width: 183px;
+        /* max-width: 400px;
+        min-width: 183px; */
+        max-width: 272px;
         font-size: 30px;
         margin-right: 0px;
         margin-left: 0px;
@@ -377,10 +384,15 @@ div#nezuko-img {
     }
 
     div#zenitsu-frase {
-        max-width: 400px;
+        /* max-width: 400px;
         min-width: 183px;
-        font-size: 30px;
-        margin-right: auto;
+       
+        margin-right: auto; */
+    }
+
+    div#zenitsu-img {
+        padding-top: 2px;
+        margin: auto;
     }
 
 
