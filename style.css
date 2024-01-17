@@ -54,6 +54,10 @@ body {
     
 }
 
+ul > p {
+    font-size: 14px;
+}
+
 
     
 
@@ -70,7 +74,7 @@ header {
     max-height: 400px;
     margin-top: 0px;
     /* padding-top: 0px; */
-    padding: 20px 20px 20px 47px;
+    padding: 20px 20px 20px 20px;
 }
 
 header > h1 {
@@ -79,7 +83,7 @@ header > h1 {
     min-width: 20px;
     text-align: center;
     color: white;
-    margin: 0px;
+    margin: auto;
     margin-bottom: 0px;
 }
 
@@ -140,7 +144,7 @@ main > div.descricao-da-obra > h1 {
     font-weight: 200px;
     text-indent: 2px;
     text-align: justify;
-    font-size: 12px;
+    font-size: 14px;
     padding-left: 2px;
 }
 
@@ -287,7 +291,7 @@ article.descricao-do-personagem {
     font-family: 'Lato', Arial, Helvetica, sans-serif;
     text-align: justify;
     text-indent: 2px;
-    font-size: 18px;
+    font-size: 14px;
     text-justify: auto;
     text-decoration: none;
 }
