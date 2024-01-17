@@ -50,12 +50,13 @@
 body {
     height: 100vh;
     background-color: gray;
+    margin-top: 0px;
     
 }
 
 
     
-}
+
 
 
 section > p {
@@ -68,8 +69,8 @@ header {
     background-color: black;
     max-height: 400px;
     margin-top: 0px;
-    padding-top: 0px;
-
+    /* padding-top: 0px; */
+    padding: 20px 20px 20px 47px;
 }
 
 header > h1 {
@@ -149,7 +150,7 @@ main > div.descricao-da-obra > h1 {
     margin-left: 60px;
     margin-right: 0px;
     padding: 0px;
-    padding-bottom: 30px;
+    padding-bottom: 60px;
 }
 
 .lista-de-arcos {
@@ -216,7 +217,7 @@ div.audio {
     max-width: 315px;
     max-height: 76px;
     border-radius: 30px;
-    background-color: #3ABC7F;
+    
 
 }
 
@@ -252,7 +253,6 @@ div.frase {
 
 div.frase > p {
     background-color:  rgba(0, 0, 0, 0.382);
-    font-size: 24px;
     color: white;
     text-indent: 0.5px;
     text-align: center;
@@ -308,43 +308,47 @@ div#tanjiro-img {
 
 }
 
+div#tanjiro-frase {
+    font-size: 24px;
+}
+
 section#nezuko {
     background-image: url(imagens/background-nezuko.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center center;
+    justify-content: space-between;
 }
 
 
 div#nezuko-img {
     margin-left: 60px;
-    margin-right: 2px;
+    margin-right: 80px;
     padding: 0px;
+    position: relative;
+    padding-top: 10px;
+    
 
 }
 
+
 div#nezuko-frase {
-    margin-left: 100px;
+    font-size: 30px;
+    margin-left: 50px;
+    white-space: nowrap;
+
     
 }
 
-
-
-div#nezuko-frase > p{
-    font-size: 25px;
-}
-
-
-
-
-
-    section#inosuke {
+section#inosuke {
+        max-height: 415px;
         background-image: url(imagens/background-inosuke.jpeg);
         background-attachment: fixed;
         background-size: cover;
         background-position: top center;
+        justify-content: space-between;
 
-    }
+ }
 
     div#inosuke-img {
         margin-left: 60px;
@@ -353,12 +357,11 @@ div#nezuko-frase > p{
     }
 
     div#inosuke-frase {
-        margin-left: 100px;
-    }
-
-    div#inosuke-frase > p {
-        min-width: 50px;
-        font-size: 30px;  
+        max-width: 400px;
+        min-width: 183px;
+        font-size: 30px;
+        margin-left: 25px;
+        margin-right: auto;
     }
 
 
@@ -367,10 +370,15 @@ div#nezuko-frase > p{
         background-attachment: fixed;
         background-size: cover;
         background-position: center top;
+        justify-content: space-between;
+    }
 
-
-     
-
+    div#zenitsu-frase {
+        max-width: 400px;
+        min-width: 183px;
+        font-size: 30px;
+        margin-left: 25px;
+        margin-right: auto;
     }
 
 
@@ -388,8 +396,34 @@ footer {
 
 
 
+/*----------------- estilização dos áudios -----------------------------------*/
 
 
+div#audio-tanjiro-01 {
+    /* background-image: linear-gradient(to left ); */
+    background-color: #3ABC7F;
+    
+}
+
+div#audio-tanjiro-02 {
+    background-color: cadetblue
+}
+
+div#audio-inosuke-01 {
+    background-color: #8F5B5D;
+}
+
+div#audio-inosuke-02 {
+    background-color: #243B66;
+}
+
+div#audio-zenitsu-01 {
+    background-color: #FC7D54;
+}
+
+div#audio-zenitsu-02 {
+    background-color: #e6cb45;
+}
 
 
 
@@ -427,7 +461,7 @@ footer {
     max-height: 396px;
     /* transform: translateY(-1%) translateX(105%); */
 
- */
+ 
 
 
 
@@ -454,7 +488,3 @@ footer {
     color: white;
     padding-inline: 10px;
 } */
-
-
-
-
