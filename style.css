@@ -67,7 +67,7 @@ ul > p {
 
 header {
     background-color: black;
-    max-height: 400px;
+    max-height: 100vh;
     margin-top: 0px;
     /* padding-top: 0px; */
     padding: 20px 20px 20px 20px;
@@ -91,10 +91,12 @@ header {
 }
 
 .titulo-do-header > p {
+
     color: white;
     font-family: 'fonte-naruto', Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     margin-bottom: 0px;
+   
 }
 
 nav {
@@ -250,6 +252,9 @@ section.personagem { /*todas as sections */
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+   
     
 
 
@@ -262,6 +267,7 @@ div.frase, div.img-personagem {
 
 div.img-personagem {
     float: left;
+    
   
    
     /*tentar mexer aqui para ajustar as imagens, eu reduzi o padding left do zenitsu e acho que resolveu*/
@@ -416,12 +422,13 @@ div#nezuko-img {
 footer {
         color: white;
         text-align: center;
+        max-width: 100vh;
         height: 200px;
         background-color: black;
         padding: 5px;
         padding-top: 47px;
         border-top: 5px solid red;
-        min-height: 200px;
+        min-height: 150px;
 }
 
 
