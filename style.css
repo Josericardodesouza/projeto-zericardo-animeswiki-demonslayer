@@ -80,12 +80,13 @@ header {
 
 .titulo-do-header > h1 {
     font-family: 'fonte-onepiece', Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 7vh;
     text-align: center;
     color: white;
     margin: auto;
+    padding: 0px;
     margin-bottom: 0px;
     white-space: nowrap;
+    
     
 }
 
@@ -122,9 +123,11 @@ main > a {
 
 main {
     background-color: rgba(0, 0, 0, 0.912);
-    max-width: 1200px; 
+    max-width: 1200px;
+    /* max-width: 1200px;  */
+    min-width: 300px;
     margin: auto;
-    padding: 5px;
+    padding: 0px;
 }
 
 div.descricao-da-obra, div.logo {
@@ -240,11 +243,14 @@ section.personagem { /*todas as sections */
     box-shadow: inset 10% 10% rgba(0, 0, 0, 0.699);
     max-height: 405px;
     max-width: 1090px;
+    min-width: 100px;
     line-height: auto;
-    padding-left: 30px;    
+    padding-left: 30px;  
+    margin: auto;  
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
     flex-wrap: wrap;
+    
 
 
 }
