@@ -244,7 +244,7 @@ div.audio {
 }
 
 section.personagem { /*todas as sections */
-    background-color: blue;
+    background-color: rgba(0, 0, 0, 0.912);
     box-shadow: inset 10% 10% rgba(0, 0, 0, 0.699);
     max-height: 405px;
     max-width: 1090px;
