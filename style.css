@@ -71,19 +71,25 @@ header {
     margin-top: 0px;
     /* padding-top: 0px; */
     padding: 20px 20px 20px 20px;
+    
 }
 
-header > h1 {
+.titulo-do-header {
+    flex-wrap: nowrap;
+}
+
+.titulo-do-header > h1 {
     font-family: 'fonte-onepiece', Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 67px;
-    min-width: 20px;
+    font-size: 7vh;
     text-align: center;
     color: white;
     margin: auto;
     margin-bottom: 0px;
+    white-space: nowrap;
+    
 }
 
-header > p {
+.titulo-do-header > p {
     color: white;
     font-family: 'fonte-naruto', Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
