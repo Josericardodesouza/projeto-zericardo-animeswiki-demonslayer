@@ -385,6 +385,7 @@ div#nezuko-img {
         background-size: cover;
         background-position: center top;
         justify-content: space-between;
+        padding-left: 8px;
     }
 
     div#zenitsu-frase {
