@@ -59,9 +59,6 @@ body {
     
 
 
-ul > p {
-    font-size: 14px;
-}
 
 
 
@@ -95,7 +92,7 @@ header {
 .titulo-do-header > p {
 
     color: white;
-    font-size: 90%;
+    font-size: 85%;
     margin: auto;
     font-family: 'fonte-naruto', Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
@@ -172,7 +169,7 @@ main > div.descricao-da-obra > h1 {
 
 .lista-de-arcos {
     color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lato', Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
 }
 
@@ -307,6 +304,11 @@ article {
 
 article.lista-de-arcos {
     font-family: 'Lato', Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+ul > p {
+    font-size: 14px;
 }
 
 
@@ -314,9 +316,9 @@ article.descricao-do-personagem {
     color: whitesmoke;
     font-family: 'Lato', Arial, Helvetica, sans-serif;
     text-align: justify;
-    text-indent: 2px;
-    font-size: 14px;
     text-justify: auto;
+    text-indent: 10px;
+    font-size: 17px;
     text-decoration: none;
 }
 
@@ -412,12 +414,7 @@ div#nezuko-img {
         padding-left: 8px;
     }
 
-    div#zenitsu-frase {
-        /* max-width: 400px;
-        min-width: 183px;
-       
-        margin-right: auto; */
-    }
+ 
 
     div#zenitsu-img {
         padding-top: 2px;
