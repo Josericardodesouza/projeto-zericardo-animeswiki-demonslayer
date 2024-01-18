@@ -44,13 +44,12 @@
 }
 
 
-html {
-    padding: 0px;
-}
+
 
 
 body {
     height: 100vh;
+    margin: 0px;
     background-image: url(imagens/body.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -59,28 +58,36 @@ body {
     padding: 0px;
 }
 
+header, footer {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
 
 header {
-    background-color: black;
-    width: 1700x;
-    max-height: 100vh;
+    
     margin-top: 0px;
-    /* padding-top: 0px; */
-    padding: 20px 20px 20px 20px;
+    padding: 0px;
+    background-color: black;
+    max-height: 100vh; 
+    padding-top: 0px; 
+   
     
 }
 
 .titulo-do-header {
     flex-wrap: nowrap;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
 }
 
 .titulo-do-header > h1 {
     font-family: 'fonte-onepiece', Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     color: white;
-    margin: auto;
-    padding: 0px;
-    margin-bottom: 0px;
+    margin-top: 0px;
     white-space: nowrap;
     
     
@@ -90,11 +97,11 @@ header {
 
     color: white;
     font-size: 85%;
-    margin: auto;
     font-family: 'fonte-naruto', Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    margin-bottom: 0px;
+    margin: auto;
     padding: 0px;
+    margin-bottom: 0px;
     white-space: nowrap;
    
 }
@@ -104,6 +111,7 @@ nav {
     text-decoration: underline;
     text-indent: 2px;
     margin-top: 0px;
+    padding: 0px;
     
 }
 
@@ -147,12 +155,13 @@ main > div.descricao-da-obra > h1 {
     min-height: 320px;
     margin-bottom: 20px;
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Lato', Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 200px;
     text-indent: 2px;
     text-align: justify;
-    font-size: 14px;
-    padding-left: 2px;
+    font-size: 17px;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 
 .logo {
@@ -421,16 +430,27 @@ div#nezuko-img {
 
 
 footer {
-        color: white;
-        text-align: center;
-        width: 100%;
-        height: 200px;
-        margin: 0px;
-        background-color: black;
-        padding-top: 47px;
-        border-top: 5px solid red;
-        min-height: 150px;
-        position: absolute;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  padding-top: 10px;
+ 
+}
+
+footer > a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: rgba(255, 0, 0, 0.619);
+}
+
+a.externo::after {
+    content: '\1F517';
 }
 
 
