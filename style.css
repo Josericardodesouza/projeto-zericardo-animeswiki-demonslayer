@@ -254,6 +254,7 @@ div.frase, div.img-personagem {
 
 div.img-personagem {
     float: left;
+    /*tentar mexer aqui para ajustar as imagens, eu reduzi o padding left do zenitsu e acho que resolveu*/
 }
 
 div.frase {
