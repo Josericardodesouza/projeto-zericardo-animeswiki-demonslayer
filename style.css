@@ -59,14 +59,6 @@ ul > p {
 }
 
 
-    
-
-
-
-section > p {
-    background-color: rgba(0, 0, 0, 0.645);
-}
-
 
 
 header {
@@ -254,12 +246,14 @@ div.frase, div.img-personagem {
 
 div.img-personagem {
     float: left;
+  
+   
     /*tentar mexer aqui para ajustar as imagens, eu reduzi o padding left do zenitsu e acho que resolveu*/
 }
 
 div.frase {
     position: relative;
-    align-items: center;
+    align-items: center; 
     margin-top: auto;
     margin-bottom: auto;
     display: flex;
@@ -269,7 +263,7 @@ div.frase {
 }
 
 div.frase > p {
-    background-color:  rgba(0, 0, 0, 0.382);
+    background-color:  rgba(0, 0, 0, 0.725);
     color: white;
     text-indent: 0.5px;
     text-align: center;
