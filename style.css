@@ -263,7 +263,6 @@ div.audio {
 
 section.personagem { /*todas as sections */
     background-color: rgba(0, 0, 0, 0.912);
-    box-shadow: inset 10% 10% rgba(0, 0, 0, 0.699);
     max-height: 405px;
     max-width: 1090px;
     min-width: 100px;
@@ -429,6 +428,17 @@ section#nezuko {
         margin: auto;
     }
 
+aside, aside > p {
+    margin: 0px 0px 0px 0px;
+    padding-top: 10px;
+    padding-bottom: 16px;
+    height: 30px;
+    text-align: center;
+    font-family: 'Lato', Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 12px;
+}
+
 
 
 footer {
@@ -436,11 +446,12 @@ footer {
     color: white;
     text-align: center;
     font-size: 14px;
-    padding-top: 10px;
     padding-bottom: 10px;
+    border-top: 10px solid red;
     font-weight: bold;
     font-family: 'Lato', Verdana, Geneva, Tahoma, sans-serif;
-    
+    word-spacing: 2px;
+    justify-content: space-between;
 
 }
 
