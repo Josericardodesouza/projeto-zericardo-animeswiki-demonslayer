@@ -88,6 +88,7 @@ header {
     text-align: center;
     color: white;
     margin-top: 0px;
+    margin-bottom: 10px;
     white-space: nowrap;
     
     
@@ -100,8 +101,7 @@ header {
     font-family: 'fonte-naruto', Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     margin: auto;
-    padding: 0px;
-    margin-bottom: 0px;
+    padding: 0px 0px 10px 0px;
     white-space: nowrap;
    
 }
@@ -123,7 +123,7 @@ nav > a {
     text-decoration: none;
     color: white;
     font-style: normal;
-    font-size: medium;
+    font-size: small;
     font-weight: bold;
     font-family: 'Lato', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 4px;
@@ -172,6 +172,10 @@ main > div.descricao-da-obra > h1 {
     padding-right: 8px;
 }
 
+.descricao-da-obra > a {
+    color: white;
+}
+
 .logo {
     max-width: 230px;
     max-height: 180px;
@@ -189,12 +193,11 @@ main > div.descricao-da-obra > h1 {
 
 .video-abertura {
     background-image: url(imagens/fundo-div-video..png);
+    height: 270px;
     background-attachment: fixed;
     background-size: cover;
     margin: 0px 0px 12px 0px;
-    padding: 35px;
-    padding-bottom:30%;
-
+    padding: 20px;
     position: relative;
 
 }
@@ -206,20 +209,23 @@ main > div.descricao-da-obra > h1 {
     min-width: 20px;
     margin-top: 0px;
     margin-bottom: 5px;
+    text-indent: 5px;
 }
 
 
 .video-abertura > iframe {
     position: absolute;
-    max-width: 580px;
-    max-height: 350px;
-    top: 10%;
-    bottom: 10%;
+    top: 20%;
+    bottom: 20%;
     left: 5%;
     width: 90%;
-    height: 90%;
+    height: 75%;
+    align-items: center;
+    margin: auto;
 
 }
+
+
  
 
 .titulos-com-fonte {
@@ -319,6 +325,11 @@ article.lista-de-arcos {
     font-size: 17px;
 }
 
+article.lista-de-arcos > ul {
+    padding-left: 28px;
+
+}
+
 ul > p {
     font-size: 14px;
 }
@@ -354,16 +365,6 @@ section#tanjiro {
     
 }
 
-
-div#tanjiro-img {
-    /* margin-left: 60px;
-    margin-right: 2px;
-    padding: 0px; */
-
-
-
-}
-
 div#tanjiro-frase {
     font-size: 24px;
 }
@@ -377,17 +378,9 @@ section#nezuko {
 }
 
 
-div#nezuko-img {
-    /* margin-left: 60px;
-    margin-right: 2px;
-    padding: 0px; */
-    
-
-}
-
 
  div#nezuko-frase {
-    font-size: 30px;
+    
     /* margin-left: 50px; */
     white-space: nowrap;
 
@@ -413,7 +406,7 @@ div#nezuko-img {
         /* max-width: 400px;
         min-width: 183px; */
         max-width: 272px;
-        font-size: 30px;
+        font-size: 22px;
         margin-right: 0px;
         margin-left: 0px;
     }
