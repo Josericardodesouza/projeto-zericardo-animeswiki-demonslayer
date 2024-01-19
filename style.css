@@ -140,7 +140,7 @@ main > a {
 }
 
 main {
-    background-color: rgba(0, 0, 0, 0.762);
+    background-color: rgba(0, 0, 0, 0.768);
     max-width: 1200px;
     /* max-width: 1200px;  */
     min-width: 300px;
@@ -332,6 +332,7 @@ article.lista-de-arcos > ul {
 
 ul > p {
     font-size: 14px;
+    text-indent: 5px;
 }
 
 
@@ -431,23 +432,21 @@ section#nezuko {
 
 
 footer {
-  background-color: black;
-  color: white;
-  text-align: center;
-  font-size: 14px;
-  padding-top: 10px;
- 
-}
-
-footer > a {
+    background-color: black;
     color: white;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-weight: bold;
-    text-decoration: none;
+    font-family: 'Lato', Verdana, Geneva, Tahoma, sans-serif;
+    
+
 }
 
 footer > a:hover {
     text-decoration: underline;
-    color: rgba(255, 0, 0, 0.619);
+    background-color: rgba(255, 0, 0, 0.619);
 }
 
 a.externo::after {
