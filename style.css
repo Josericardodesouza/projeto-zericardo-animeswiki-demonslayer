@@ -249,6 +249,7 @@ div.audio {
     max-width: 315px;
     max-height: 76px;
     border-radius: 30px;
+    margin-left: 9px;
     
 
 }
@@ -459,7 +460,7 @@ footer a {
     color: white;
 }
 
-footer > a:hover {
+footer a:hover {
     text-decoration: underline;
     background-color: rgba(255, 0, 0, 0.619);
 }
