@@ -140,7 +140,7 @@ main > a {
 }
 
 main {
-    background-color: rgba(0, 0, 0, 0.768);
+    background-color: rgba(0, 0, 0, 0.868);
     max-width: 1200px;
     /* max-width: 1200px;  */
     min-width: 300px;
@@ -262,7 +262,7 @@ div.audio {
 }
 
 section.personagem { /*todas as sections */
-    background-color: rgba(0, 0, 0, 0.912);
+    background-color: rgba(0, 0, 0, 0.947);
     max-height: 405px;
     max-width: 1090px;
     min-width: 100px;
