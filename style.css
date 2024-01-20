@@ -20,8 +20,6 @@
 
 }
 
-/* @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap'); */
-
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
 
@@ -111,7 +109,6 @@ header {
 nav {
     background-color: red;
     text-decoration: none;
-    /* text-decoration: underline; */
     text-indent: 2px;
     margin-top: 0px;
     padding: 0px;
@@ -144,7 +141,6 @@ main > a {
 main {
     background-color: rgba(0, 0, 0, 0.810);
     max-width: 1200px;
-    /* max-width: 1200px;  */
     min-width: 320px;
     margin: auto;
     padding: 0px;
@@ -294,7 +290,7 @@ div.img-personagem {
     
   
    
-    /*tentar mexer aqui para ajustar as imagens, eu reduzi o padding left do zenitsu e acho que resolveu*/
+
 }
 
 div.frase {
@@ -360,12 +356,7 @@ section#tanjiro {
     background-image: url(imagens/background-tanjiro.jpg);
     background-attachment: fixed;
     background-size: cover;
-    background-position: center top;
-    
-    
-    /* background-position: right top; */
-    
-    
+    background-position: center top;  
 }
 
 div#tanjiro-frase {
@@ -383,8 +374,6 @@ section#nezuko {
 
 
  div#nezuko-frase {
-    
-    /* margin-left: 50px; */
     white-space: nowrap;
 
     
@@ -397,17 +386,11 @@ section#nezuko {
         background-size: cover;
         background-position: top center;
         justify-content: space-between;
-
  }
 
-    div#inosuke-img {
-        /* margin-left: 60px;
-        margin-right: 20px; */
-    }
+ 
 
     div#inosuke-frase {
-        /* max-width: 400px;
-        min-width: 183px; */
         max-width: 272px;
         font-size: 22px;
         margin-right: 0px;
@@ -477,7 +460,6 @@ a.externo::after {
 
 
 div#audio-tanjiro-01 {
-    /* background-image: linear-gradient(to left ); */
     background-color: #3ABC7F;
     
 }
@@ -501,67 +483,3 @@ div#audio-zenitsu-01 {
 div#audio-zenitsu-02 {
     background-color: #e6cb45;
 }
-
-
-
-
-    /*----------------------------------------------------------------------*/
-
-
-
-
-
-    /* <p class="autor">Tanjiro Kamado</p> */
-
-
-/* div#tanjiro-p {
-        width: 280px;
-        height: 170px;
-        font-size: 30px;
-        margin: auto;
-        position: relative;
-        align-items: center;
-        color: white;
-        text-align: center;
-        background-color: rgba(17, 1, 1, 0.685);
-        text-shadow: rgba(0, 0, 0, 0.416);
-        margin: auto;
-        padding-left: 10px;
-        padding-bottom: 10px; */
-        /* transform: translateX(22%) translateY(-68%); */
-        
-
-
-/* div#tanjiro-img {
-    margin: auto;
-    max-width: 353px;
-    max-height: 396px;
-    /* transform: translateY(-1%) translateX(105%); */
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* article {
-    color: white;
-    padding-inline: 10px;
-} */
