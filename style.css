@@ -172,7 +172,7 @@ main > div.descricao-da-obra > h1 {
     padding-right: 8px;
 }
 
-.descricao-da-obra > a {
+.descricao-da-obra a {
     color: white;
 }
 
@@ -445,14 +445,18 @@ footer {
     background-color: black;
     color: white;
     text-align: center;
-    font-size: 14px;
+    font-size: 12px;
     padding-bottom: 10px;
     border-top: 10px solid red;
-    font-weight: bold;
+    font-weight: 600;
     font-family: 'Lato', Verdana, Geneva, Tahoma, sans-serif;
     word-spacing: 2px;
     justify-content: space-between;
 
+}
+
+footer a {
+    color: white;
 }
 
 footer > a:hover {
