@@ -103,6 +103,7 @@ header {
     margin: auto;
     padding: 0px 0px 10px 0px;
     white-space: nowrap;
+    word-spacing: 2.1px;
    
 }
 
@@ -143,7 +144,7 @@ main {
     background-color: rgba(0, 0, 0, 0.810);
     max-width: 1200px;
     /* max-width: 1200px;  */
-    min-width: 300px;
+    min-width: 320px;
     margin: auto;
     padding: 0px;
 }
