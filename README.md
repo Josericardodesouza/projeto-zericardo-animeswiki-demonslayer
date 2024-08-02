@@ -1,7 +1,7 @@
 
 <h1 style = "text-align: center">Site ZeRicardo AnimesWiki - Demon Slayer</h1>
 
-<img src = "imagens/print-site.png"></img>
+<img src = "imagens/print-site.png" style = "width: 90%"></img>
 
  <p>Projeto original desenvolvido com meus primeiros conhecimentos em HTML e CSS adquiridos durante o curso de HTML5 e CSS3 do Curso em Vídeo</p>
 
